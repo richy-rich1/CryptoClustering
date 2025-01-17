@@ -69,22 +69,3 @@ Install these dependencies using:
 pip install pandas matplotlib scikit-learn hvplot numpy
 ```
 
-## How to Run the Project
-1. Clone this repository.
-2. Ensure all dependencies are installed.
-3. Open `Crypto_Clustering.ipynb` in Jupyter Notebook or JupyterLab.
-4. Execute the cells in sequence to reproduce the analysis and visualizations.
-
-## Questions Addressed
-- What is the optimal value for k when clustering cryptocurrencies?
-- How does PCA affect the clustering results?
-- What insights can be drawn from the clustered cryptocurrencies?
-
-## Key Insights
-- The elbow method provides a systematic way to determine the best number of clusters for grouping cryptocurrencies.
-- PCA simplifies the dataset, making clustering more efficient while retaining essential information.
-- Interactive visualizations enable detailed exploration of cryptocurrency clusters.
-
-## Acknowledgments
-This project was developed as part of a data science exercise to explore clustering techniques and dimensionality reduction methods.
-
